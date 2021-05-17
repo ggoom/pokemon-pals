@@ -40,9 +40,9 @@ body {
 }
 .sprite {
   width: 20px;
+  z-index:4;
 }
 .sprite:hover {
-  z-index:3;
   transform: scale(2);
   transition: transform 0.3s ease-out;
 }
@@ -55,6 +55,14 @@ body {
 .arrows {
   /* transform: scale(0.8); */
 }
+.path-all {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  height: 770px;
+  width: 1400px;
+}
 .one-game {
   position: fixed;
   top: 176px;
@@ -63,47 +71,47 @@ body {
 .one-manga {
   position: fixed;
   top: 176px;
-  left: 445px;
+  left: 450px;
 }
 .one-anime {
   position: fixed;
   top: 176px;
-  left: 460px;
+  left: 468px;
 }
 .one-blue {
   position: fixed;
   top: 520px;
-  left: 400px;
+  left: 410px;
 }
 .one-oak-game {
   position: fixed;
-  top: 520px;
-  left: 420px;
+  top: 510px;
+  left: 435px;
 }
 .one-oak-manga {
   position: fixed;
-  top: 520px;
-  left: 440px;
+  top: 510px;
+  left: 455px;
 }
 .one-oak-anime {
   position: fixed;
-  top: 520px;
-  left: 460px;
+  top: 510px;
+  left: 475px;
 }
 .one-brock-game {
   position: fixed;
-  top: 150px;
-  left: 425px;
+  top: 140px;
+  left: 445px;
 }
 .one-brock-manga {
   position: fixed;
-  top: 150px;
-  left: 445px;
+  top: 140px;
+  left: 465px;
 }
 .one-brock-anime {
   position: fixed;
-  top: 150px;
-  left: 465px;
+  top: 140px;
+  left: 485px;
 }
 .one-oaks-parcel {
   position: fixed;
@@ -127,18 +135,18 @@ body {
 }
 .two-misty-game {
   position: fixed;
-  top: 80px;
-  left: 830px;
+  top: 70px;
+  left: 845px;
 }
 .two-misty-manga {
   position: fixed;
-  top: 100px;
-  left: 830px;
+  top: 90px;
+  left: 845px;
 }
 .two-misty-anime {
   position: fixed;
-  top: 120px;
-  left: 830px;
+  top: 110px;
+  left: 845px;
 }
 .two-misty-manga-card {
   position: fixed;
