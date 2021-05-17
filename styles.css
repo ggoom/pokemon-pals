@@ -49,7 +49,7 @@ body {
 }
 .card {
   display: none;
-  z-index: 4;
+  z-index: 10;
 }
 .card-show {
   display: inline;
@@ -100,9 +100,14 @@ body {
   top: 510px;
   left: 480px;
 }
+.one-oak-game-card {
+  position: fixed;
+  top: 310px;
+  left: 480px;
+}
 .one-oak-manga-card {
   position: fixed;
-  top: 330px;
+  top: 310px;
   left: 500px;
 }
 .one-oak-anime-card {
@@ -125,6 +130,11 @@ body {
   top: 140px;
   left: 485px;
 }
+.one-brock-game-card {
+  position: fixed;
+  top: 130px;
+  left: 500px;
+}
 .one-brock-manga-card {
   position: fixed;
   top: 130px;
@@ -139,7 +149,12 @@ body {
 .one-oaks-parcel {
   position: fixed;
   top: 390px;
-  left: 410px;
+  left: 420px;
+}
+.one-oaks-parcel-card {
+  position: fixed;
+  top: 410px;
+  left: 440px;
 }
 
 
@@ -217,8 +232,48 @@ body {
 }
 .three-ltsurge-anime-card {
   position: fixed;
-  top: 150px;
-  left: 860px;
+  top: 350px;
+  left: 900px;
+}
+.three-eevee-manga {
+  position: fixed;
+  top: 313px;
+  left: 571px;
+}
+.three-eevee-manga-card {
+  position: fixed;
+  top: 333px;
+  left: 591px;
+}
+.three-snorlax-manga {
+  position: fixed;
+  top: 402px;
+  left: 1035px;
+}
+.three-snorlax-manga-card {
+  position: fixed;
+  top: 422px;
+  left: 1055px;
+}
+.three-pkmntower-manga {
+  position: fixed;
+  top: 230px;
+  left: 1055px;
+}
+.three-pkmntower-manga-card {
+  position: fixed;
+  top: 210px;
+  left: 1075px;
+}
+.three-erika-manga {
+  position: fixed;
+  top: 260px;
+  left: 685px;
+}
+.three-erika-manga-card {
+  position: fixed;
+  top: 280px;
+  left: 705px;
 }
 
 #overlay-route img {
