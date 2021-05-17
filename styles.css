@@ -32,6 +32,11 @@ body {
   top: 0px;
   left: 0px;
   z-index: 2;
+  display: none;
+
+}
+.route-selected {
+  display: inline;
 }
 .sprite:hover {
   z-index:3;
@@ -76,6 +81,27 @@ body {
   top: 390px;
   left: 410px;
 }
+.two-game {
+  position: fixed;
+  top: 84px;
+  left: 406px;
+}
+.two-manga {
+  position: fixed;
+  top: 100px;
+left: 445px;
+}
+.two-anime {
+  position: fixed;
+  top: 116px;
+  left: 445px;
+}
+.two-misty {
+  position: fixed;
+  top: 90px;
+  left: 835px;
+}
+
 
 
 #overlay-route img {

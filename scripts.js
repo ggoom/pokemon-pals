@@ -11,6 +11,5 @@ $(".navigation tr").click(function(){
  function displayGym(idx) {
     // $(".overlay-route").prepend('<img src="gamepath1.png" />')
     const i = String(idx)
-    $(".route").css("display", "none");
-    $(".route-"+i).css("display", "inline");
+    $(".route-"+i).addClass('route-selected').siblings().removeClass('route-selected');  
  }
