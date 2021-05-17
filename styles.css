@@ -2,19 +2,73 @@
 
 body {
   font-family: 'Press Start 2P', cursive;
+  /* transform: scale(.9) */
 }
-
+.title {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  margin-left: 2vw;
+  width: 20vw;
+}
 #background-map {
-  height: 100vh;
-  width: 100vw;
+  height: 770px;
+  width: 1400px;
   position: fixed;
   top: 0px;
   left: 0px;
   z-index: 1;
   background-image: url('imgs/background-new-01.png');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed; 
-  background-size: cover;
+  background-size: cover; */
+}
+
+.route {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.sprite:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s ease-out;
+}
+.arrows {
+  /* transform: scale(0.8); */
+}
+.one-game {
+  position: fixed;
+  top: 176px;
+  left: 405px;
+}
+.one-manga {
+  position: fixed;
+  top: 176px;
+  left: 445px;
+}
+.one-anime {
+  position: fixed;
+  top: 176px;
+  left: 460px;
+}
+.one-blue {
+  position: fixed;
+  top: 520px;
+  left: 410px;
+}
+.one-oak {
+  position: fixed;
+  top: 520px;
+  left: 440px;
+}
+
+
+#overlay-route img {
+  transition: background-image 1s ease-out;
 }
 
 .navigation, .navigation-bars {
@@ -24,10 +78,10 @@ body {
   width: 18vw;
 }
 .navigation {
-  z-index: 3;
+  z-index: 100;
 }
 .navigation-bars {
-  z-index: 2;
+  z-index: 99;
 }
 
 table {
@@ -52,7 +106,7 @@ th > img {
 }
 
 .selected {
-  transition: background-color .3s ease-out;
+  transition: background-color .5s ease-out;
   background-color: rgb(255, 212, 148, .5);
   
 }
@@ -61,6 +115,15 @@ th > img {
   margin: 5vh auto;
   width: 1vw;
   height: 50vh;
-  background-color: rgb(224, 166, 166);
   
+  
+}
+.bar-game {
+  background-color: rgb(0, 255, 0, 0.5);
+}
+.bar-manga {
+  background-color: rgb(255, 0, 0, 0.5);
+}
+.bar-anime {
+  background-color: rgb(0, 255, 255, 0.5);
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Journeys through Kanto Region</title>
+  <title>Pokemon Red's Journeys</title>
   <!-- <meta name="description" content="The HTML5 Herald"> -->
   <!-- <meta name="author" content="SitePoint"> -->
 
@@ -14,8 +14,22 @@
 
 
 <body>
-  <div id="background-map"></div>
-  <div id="overlay-route"></div>
+  <h3 class="title">Pokemon Red's Journeys</h3>
+  <div>
+    <img id="background-map" src='imgs/background-new-01.png'>
+  </div>
+  <div class="route route-1">
+    <img class="arrows path-manga one-manga" src='imgs/badge1/mangapath1.png'/>
+    <img class="arrows path-anime one-anime" src='imgs/badge1/animepath1.png'/>
+    <img class="arrows path-game one-game" src='imgs/badge1/gamepath1.png'/>
+    <img class="sprite one-blue" src="imgs/badge1/blue.png" />
+    <img class="sprite one-oak" src="imgs/badge1/oak.png" />
+  </div>
+  <div class="route route-2">
+      <!-- <img class="arrows" src='imgs/badge2/path2.png'/> -->
+      <img class="sprite one-blue" src="imgs/badge1/blue.png" />
+      <img class="sprite one-oak" src="imgs/badge1/oak.png" />
+    </div>
 
   <table class="navigation">
     <tr>
@@ -32,7 +46,7 @@
         <br> Anime
       </th>
     </tr>
-    <tr>
+    <tr class="selected">
       <td>
         <img src="imgs/badge1/manga/bouldgerbadge.png">
       </td>
@@ -54,17 +68,29 @@
         <img src="imgs/badge2/anime/cascade.png">
       </td> 
     </tr>
+    <tr>
+      <td>
+        <img src="imgs/badge3/game/thunderbadge.png">
+      </td>
+      <td>
+        <img src="imgs/badge3/manga/rainbowbadge.png">
+      </td>
+      <td>
+        <img src="imgs/badge3/anime/thunderbadge.png">
+      </td> 
+      </tr>
   </table>
+
   <table class="navigation-bars">
     <tr>
       <td>
-        <div class="bar"></div>
+        <div class="bar bar-game"></div>
       </td>
       <td>
-        <div class="bar"></div>
+        <div class="bar bar-manga"></div>
       </td> 
       <td>
-        <div class="bar"></div>
+        <div class="bar bar-anime"></div>
       </td>
     </tr>
       
