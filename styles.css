@@ -73,17 +73,37 @@ body {
 .one-blue {
   position: fixed;
   top: 520px;
-  left: 410px;
+  left: 400px;
 }
-.one-oak {
+.one-oak-game {
+  position: fixed;
+  top: 520px;
+  left: 420px;
+}
+.one-oak-manga {
   position: fixed;
   top: 520px;
   left: 440px;
 }
-.one-brock {
+.one-oak-anime {
   position: fixed;
-  top: 136px;
-  left: 435px;
+  top: 520px;
+  left: 460px;
+}
+.one-brock-game {
+  position: fixed;
+  top: 150px;
+  left: 425px;
+}
+.one-brock-manga {
+  position: fixed;
+  top: 150px;
+  left: 445px;
+}
+.one-brock-anime {
+  position: fixed;
+  top: 150px;
+  left: 465px;
 }
 .one-oaks-parcel {
   position: fixed;
