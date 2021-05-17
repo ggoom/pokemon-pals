@@ -38,10 +38,19 @@ body {
 .route-selected {
   display: inline;
 }
+.sprite {
+  width: 20px;
+}
 .sprite:hover {
   z-index:3;
-  transform: scale(1.5);
-  transition: transform 0.5s ease-out;
+  transform: scale(2);
+  transition: transform 0.3s ease-out;
+}
+.card {
+  display: none;
+}
+.card-show {
+  display: inline;
 }
 .arrows {
   /* transform: scale(0.8); */
@@ -89,20 +98,38 @@ body {
 .two-manga {
   position: fixed;
   top: 100px;
-left: 445px;
+  left: 452px;
 }
 .two-anime {
   position: fixed;
   top: 116px;
-  left: 445px;
+  left: 452px;
 }
-.two-misty {
+.two-misty-game {
   position: fixed;
-  top: 90px;
-  left: 835px;
+  top: 80px;
+  left: 830px;
 }
-
-
+.two-misty-manga {
+  position: fixed;
+  top: 100px;
+  left: 830px;
+}
+.two-misty-anime {
+  position: fixed;
+  top: 120px;
+  left: 830px;
+}
+.two-misty-manga-card {
+  position: fixed;
+  top: 130px;
+  left: 860px;
+}
+.two-misty-anime-card {
+  position: fixed;
+  top: 150px;
+  left: 860px;
+}
 
 #overlay-route img {
   transition: background-image 1s ease-out;

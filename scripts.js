@@ -13,3 +13,18 @@ $(".navigation tr").click(function(){
     const i = String(idx)
     $(".route-"+i).addClass('route-selected').siblings().removeClass('route-selected');  
  }
+
+
+$(".sprite").mouseenter(function() {
+    const className = this.className.split(" ")[1] + "-card";
+    $("." + className).addClass('card-show');
+})
+.mouseleave(function() {
+    const className = this.className.split(" ")[1] + "-card";
+    $("." + className).removeClass('card-show');
+})
+
+
+// function showCard() {
+
+// }
