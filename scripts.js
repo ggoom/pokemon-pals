@@ -1,6 +1,7 @@
-
-
-$(".timeline-wrapper .timeline-content-item > span").on("mouseenter mouseleave", function(e){
-    $(".timeline-wrapper .timeline-content-item.active").removeClass("active");
-    $(this).parent().addClass("active");
-  });
+$(".navigation tr").click(function(){
+    $(this).addClass('selected').siblings().removeClass('selected');    
+ });
+ 
+ $('.ok').on('click', function(e){
+     alert($("#table tr.selected td:first").html());
+ });

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+}
 
 #background-map {
   height: 100vh;
@@ -28,6 +33,9 @@
 table {
   table-layout: fixed ;
   width: 100%;
+  font-size: .8em;
+  border-spacing: 0;
+  
 }
 
 th > img {
@@ -35,13 +43,19 @@ th > img {
 }
 .navigation > tbody > tr > td , .navigation > tbody > tr > th, .navigation-bars > tbody > tr > td {
   text-align: center;
+  height: 8vh;
   width: 33%;
+  cursor: pointer;
 }
 .navigation > tbody > tr > td > img {
   width: 2vw;
 }
 
-
+.selected {
+  transition: background-color .3s ease-out;
+  background-color: rgb(255, 212, 148, .5);
+  
+}
 
 .bar {
   margin: 5vh auto;
