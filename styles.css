@@ -40,14 +40,16 @@ body {
 }
 .sprite {
   width: 20px;
-  z-index:4;
+  z-index: 4;
 }
 .sprite:hover {
+  z-index: 5;
   transform: scale(2);
   transition: transform 0.3s ease-out;
 }
 .card {
   display: none;
+  z-index: 4;
 }
 .card-show {
   display: inline;
@@ -86,17 +88,27 @@ body {
 .one-oak-game {
   position: fixed;
   top: 510px;
-  left: 435px;
+  left: 440px;
 }
 .one-oak-manga {
   position: fixed;
   top: 510px;
-  left: 455px;
+  left: 460px;
 }
 .one-oak-anime {
   position: fixed;
   top: 510px;
-  left: 475px;
+  left: 480px;
+}
+.one-oak-manga-card {
+  position: fixed;
+  top: 330px;
+  left: 500px;
+}
+.one-oak-anime-card {
+  position: fixed;
+  top: 330px;
+  left: 520px;
 }
 .one-brock-game {
   position: fixed;
@@ -113,11 +125,26 @@ body {
   top: 140px;
   left: 485px;
 }
+.one-brock-manga-card {
+  position: fixed;
+  top: 130px;
+  left: 500px;
+}
+.one-brock-anime-card {
+  position: fixed;
+  top: 130px;
+  left: 520px;
+}
+
 .one-oaks-parcel {
   position: fixed;
   top: 390px;
   left: 410px;
 }
+
+
+
+
 .two-game {
   position: fixed;
   top: 84px;
@@ -148,12 +175,47 @@ body {
   top: 110px;
   left: 845px;
 }
+.two-misty-game-card {
+  position: fixed;
+  top: 90px;
+  left: 865px;
+}
 .two-misty-manga-card {
   position: fixed;
   top: 130px;
   left: 860px;
 }
 .two-misty-anime-card {
+  position: fixed;
+  top: 150px;
+  left: 860px;
+}
+.three-ltsurge-game {
+  position: fixed;
+  top: 420px;
+  left: 855px;
+}
+.three-ltsurge-manga {
+  position: fixed;
+  top: 480px;
+  left: 820px;
+}
+.three-ltsurge-anime {
+  position: fixed;
+  top: 390px;
+  left: 850px;
+}
+.three-ltsurge-game-card {
+  position: fixed;
+  top: 90px;
+  left: 865px;
+}
+.three-ltsurge-manga-card {
+  position: fixed;
+  top: 200px;
+  left: 500px;
+}
+.three-ltsurge-anime-card {
   position: fixed;
   top: 150px;
   left: 860px;
