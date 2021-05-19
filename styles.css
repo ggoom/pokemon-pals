@@ -222,12 +222,12 @@ body {
 }
 .three-ltsurge-game-card {
   position: fixed;
-  top: 90px;
-  left: 865px;
+  top: 390px;
+  left: 880px;
 }
 .three-ltsurge-manga-card {
   position: fixed;
-  top: 200px;
+  top: 420px;
   left: 500px;
 }
 .three-ltsurge-anime-card {
@@ -274,6 +274,26 @@ body {
   position: fixed;
   top: 280px;
   left: 705px;
+}
+.three-bill-game {
+  position: fixed;
+  top: 10px;
+  left: 990px;
+}
+.three-bill-game-card {
+  position: fixed;
+  top: 30px;
+  left: 1010px;
+}
+.three-blue-game {
+  position: fixed;
+  top: 480px;
+  left: 865px;
+}
+.three-blue-game-card {
+  position: fixed;
+  top: 480px;
+  left: 885px;
 }
 
 #overlay-route img {
